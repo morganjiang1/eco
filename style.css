@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&display=swap');
+
+h1 {
+    color: white;
+  font-family: "montserrat", sans-serif;
+  font-weight: 300;
+}
+
+h2 {
+    color: white;
+  font-family: "montserrat", sans-serif;
+  font-weight: 300;
+}
+
+
+
+body {
+  text-align: center;
+  background-color: DarkGreen;
+  color: white;
+  font-family: "montserrat", sans-serif;
+  font-weight: 300;
+}
+.logo {
+  height: 65px;
+  width: 65px;
+  cursor: pointer;
+}
+
+li, a, button {
+  font-family: "montserrat", sans-serif;
+  font-weight: 300;
+  font-size: 25px;
+  color: white;
+  text-decoration: none;
+}
+
+nav__links {
+  list-style: none;
+}
+
+.nav__links li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.nav__links li a {
+  transition: all 0.3s ease 0s;
+}
+
+.nav__links li a:hover {
+  color: black;
+}
+
+button {
+  padding: 9px 25px;
+  background-color: rgba(0, 136, 169, 1);
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+  
+}
+
+button:hover {
+  background-color: rgba(0, 136, 169, 0.8);
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 10%;
+}
+
+* {
+	box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.column1 {
+	float: left;
+	width:50%;
+	padding: 0px;
+  padding-left: 80px;
+}
+
+.column2 {
+  float: left; 
+  width: 50%;
+  padding: 0px;
+  padding-right: 80px;
+}
+
+.row {
+	content: "";
+	display: table;
+	clear: both;
+  position: relative;
+}
+
+.banner-text  h1 {
+  position: absolute;
+  top: 0;
+  padding: 40px 123px;
+  color: black;
+  font-family: "montserrat", sans-serif;
+  font-size: 60px;
+  margin-left: 80px;
+  font-weight: 300;
+  text-decoration: none;
+  border-style: none;
+}
+
+.statement h2 {
+  position: absolute;
+  top: 70%;
+  color: black; 
+  font-size: 30px;
+  border-style: none;
+  margin: left;
+  width: 875px;
+  padding: 0px;
+  margin-left: 80px;
+  font-family: "montserrat", sans-serif;
+  font-weight: 300;
+}
+
+.aboutUs img {
+  width: 100%;
+	display: table;
+	clear: both;
+  position: relative;
+  padding: 80px;
+}
+
+
+.aboutUs h1 {
+  position: absolute;
+  top: 110%;
+  border-style: none;
+  font-size: 80px;
+  text-align: center;
+  width: 100%;
+}
+
+.aboutUs h2 {
+  top: 130%;
+  position: absolute;
+  font-size: 45px;
+  padding: 80px 100px;
+  text-align: center;
+  width: 100%;
+  border-style: none;
+}
+
+.ourProject img {
+  content: "";
+	display: table;
+	clear: both;
+  position: relative;
+  padding: 0px 80px;
+  width: 100%; 
+  border-style: none;
+}
+
+.ourProject h1 {
+ position: absolute;
+  top: 210%;
+  border-style: none;
+  text-align: center;
+  width: 100%;
+  font-size: 100px;
+  padding: 80px;
+  background-color: none;
+  color: none;
+  border-color: none;
+}
+
+
+.ourProject h2 {
+  position: absolute;
+  top: 235%;
+  border-style: none;
+  text-align: center;
+  width: 100%;
+  font-size: 35px;
+  padding: 80px;
+  background-color: none;
+  color: none;
+  border-color: none;
+  
+}
+
+.contact h1 {
+  color: white;
+  font-family: "montserrat", sans-serif;
+  font-weight: 300;
+  font-size: 100px;
+  
+  
+}
+
+.contact h2 {
+  color: white;
+  font-family: "montserrrat", sans-serif;
+  font-weight: 300;
+  font-size: 35px;
+}
+
+
+.socials h1 {
+  color: white;
+  font-family: "montserrat", sans-serif;
+  font-weight: 300;
+  font-size: 100px;
+  
+  
+}
+
+.socials h2 {
+  color: white;
+  font-family: "montserrrat", sans-serif;
+  font-weight: 300;
+  font-size: 35px;
+}
+
+.socials img {
+  float: center; 
+  border-style: none;
+  padding: 20px;
+}
+
+.socials {
+  position: relative;
+}
+
+.moreInfo h1 {
+  font-size: 100px;
+  border-style: none;
+  padding: 0px;
+}
+
+.moreInfo h2 {
+  border-style: none;
+  padding: 60px;
+}
